@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veriket.Worker", "Veriket.Worker\Veriket.Worker.csproj", "{D6942A4E-B4D5-4EFD-9C30-33B381A8BD51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veriket.WinForm", "Veriket.WinForm\Veriket.WinForm.csproj", "{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6942A4E-B4D5-4EFD-9C30-33B381A8BD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6942A4E-B4D5-4EFD-9C30-33B381A8BD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6942A4E-B4D5-4EFD-9C30-33B381A8BD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6942A4E-B4D5-4EFD-9C30-33B381A8BD51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D99A022-56FD-4446-96E6-F485F133D0A0}
+	EndGlobalSection
+EndGlobal
