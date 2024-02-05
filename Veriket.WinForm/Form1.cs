@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Configuration;
 using System.Configuration;
+using System.Reflection;
 
 namespace Veriket.WinForm
 {
@@ -16,9 +17,15 @@ namespace Veriket.WinForm
             InitializeComponent();
             InitializeShowLogsButton();
 
+            InitializeBat();
 
         }
-        
+        private  void InitializeBat()
+        {
+            string workerDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            string workerExePath = Path.Combine(workerDirectory, "Veriket.Worker.exe");
+            return;
+        }
 
         private void btnCsv_Click(object sender, EventArgs e)
         {

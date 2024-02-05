@@ -6,11 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-Veriket.Worker-74e99dec-064d-479d-a40d-406ead8fd2e9</UserSecretsId>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
   </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="echo sc create &quot;Veriket Test App&quot; binPath=&quot;%25cd%25\bin\Debug\net7.0\Veriket.Worker.exe&quot; start=auto &gt; &quot;$(TargetDir)InstallService.bat&quot;&#xD;&#xA;echo sc start &quot;Veriket Test App&quot; &gt;&gt; &quot;$(TargetDir)InstallService.bat&quot;" />
+  </Target>
 </Project>

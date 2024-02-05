@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veriket.Worker", "Veriket.Worker\Veriket.Worker.csproj", "{D6942A4E-B4D5-4EFD-9C30-33B381A8BD51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veriket.WinForm", "Veriket.WinForm\Veriket.WinForm.csproj", "{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veriket.WinForm", "Veriket.WinForm\Veriket.WinForm.csproj", "{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
