@@ -15,9 +15,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BatFileRuner\Veriket.BatFileRuner.csproj" />
+    <ProjectReference Include="..\Veriket.Worker\Veriket.Worker.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>
