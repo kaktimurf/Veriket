@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veriket.Worker", "Veriket.W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veriket.WinForm", "Veriket.WinForm\Veriket.WinForm.csproj", "{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Veriket.Setup", "Veriket.Setup\Veriket.Setup.vdproj", "{17FA967C-EA62-4A20-9D93-AB34EE4AEA65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20282E6A-4DCE-4D8E-BAEB-D7302642AE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FA967C-EA62-4A20-9D93-AB34EE4AEA65}.Debug|Any CPU.ActiveCfg = Debug
+		{17FA967C-EA62-4A20-9D93-AB34EE4AEA65}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
